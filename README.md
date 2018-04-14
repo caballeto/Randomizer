@@ -1,5 +1,5 @@
 # Randomizer_simple
-A simple approach to write fake randomizer function. Fake means that it does not depends on any other random values, except it these  it has generated itself.
+A simple approach to write fake randomizer function. Fake means that it does not depend on any other random values, except those it has generated itself.
 
 The approach bases on two sinusoid functions with different periods and amplitude=32767. The high period in 1 function results to the statement: small change in X axis can result very big change in Y axis. Thus we try to make random behaviour for these small changes. In addition we don't want our function to give the same results, so that's why we will save variable i - number of calls of .random() and variable x - parameter which is passed to the sinusoid function.
 
