@@ -13,5 +13,5 @@ randomizer.random() # return random number from -32767 to 32767
 
 # Test
 The test.py generates dataset.csv with 1000 random numbers geterated by randomizer. They are visualized in 1000_distibution.png.
-On the image we can see that number located not quite randomly. There more dots in top (Y axis frmo 30000 to 32767) and bottom (Y axis from -30000 to 32767).
+On the image we can see that number located not quite randomly. There more dots in top (Y axis from 30000 to 32767) and bottom (Y axis from -30000 to 32767).
 But all in all it is a fare payment for such simple approach.
