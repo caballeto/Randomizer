@@ -5,7 +5,7 @@ The approach bases on two sinusoid functions with different periods and amplitud
 
 To save it in 1 file, I have added the .save() function which rewrites the source code for every call of .random().
 
-Randomizer in realized through Randomizer class, it's instance is made as follows:
+Randomizer is realized in Randomizer class, it's instance is made as follows:
 ```python
 randomizer = Randomizer()
 randomizer.random() # return random number from -32767 to 32767
