@@ -51,6 +51,4 @@ class Randomizer(object):
         # add changes
         self.x += self.i*self.pi/5000 + self.gold*self.i/(self.e**4)
 
-        # save result
-        self.save(self.x, self.i)
         return int(math.floor(res))
